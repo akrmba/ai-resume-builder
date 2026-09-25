@@ -1,0 +1,40 @@
+# Pre‑commit configuration placeholder
+# This file is automatically detected by the pre‑commit framework.
+# Replace with actual hooks once the project's tooling is decided.
+# Runs basic repo‑agnostic hygiene hooks (part of the style lock).
+# See golden/CHECKLIST.md for the full gate definitions.
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-added-large-files
+
+  # Example language‑specific hooks (uncomment as needed)
+  # - repo: https://github.com/psf/black
+  #   rev: 23.3.0
+  #   hooks:
+  #     - id: black
+
+  # - repo: https://github.com/pre-commit/mirrors-eslint
+  #   rev: v8.44.0
+  #   hooks:
+  #     - id: eslint
+  #       args: [--fix]
+
+  # - repo: https://github.com/pre-commit/mirrors-mypy
+  #   rev: v1.4.1
+  #   hooks:
+  #     - id: mypy
+
+# Custom local hooks can be defined here
+# - repo: local
+#   hooks:
+#     - id: golden-rules-check
+#       name: Check golden rules compliance
+#       entry: scripts/check-golden-rules.sh
+#       language: script
+#       pass_filenames: false

@@ -1,0 +1,45 @@
+# OpenAPI Contract (Stub)
+# This is a placeholder contract; replace with actual API definitions when available.
+
+openapi: 3.0.3
+info:
+  title: AI Resume Builder API
+  description: |
+    External API contract for the AI Resume Builder.
+    This document defines the expected request/response shapes for integrations.
+  version: 0.1.0
+  contact:
+    name: Development Team
+    email: team@example.com
+
+# Paths are intentionally empty; add endpoint definitions as the API evolves.
+paths: {}
+
+# Components schema placeholder
+components:
+  schemas:
+    ExampleSchema:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Example identifier
+        createdAt:
+          type: string
+          format: date-time
+      required:
+        - id
+
+# Security schemes placeholder
+security:
+  - ApiKeyAuth: []
+
+securitySchemes:
+  ApiKeyAuth:
+    type: apiKey
+    in: header
+    name: X-API-Key
+
+---
+# IMPORTANT: This file is a stub. Update it with real contract definitions before integrating.
+# See golden/RULES.md for the "Contracts are law" rule.

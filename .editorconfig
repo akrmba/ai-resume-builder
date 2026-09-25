@@ -1,0 +1,23 @@
+# EditorConfig placeholder
+# This file is automatically detected by editors to enforce consistent coding styles.
+# Replace with actual rules once the project's language and style are decided.
+
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Example language‑specific overrides (uncomment as needed)
+# [*.py]
+# indent_style = space
+# indent_size = 4
+
+# [*.js,*.ts,*.json]
+# indent_style = space
+# indent_size = 2
+
+# [*.md]
+# trim_trailing_whitespace = false
