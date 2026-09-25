@@ -35,3 +35,4 @@ temp files/
 attached_assets/
 vendor/
 .cache/
+.specify/
